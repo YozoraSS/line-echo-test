@@ -5,7 +5,7 @@ import config from '../config';
 
 const app = express();
 const port = '7123';
-const { CHANNEL_ID, CHANNEL_SERECT, MID } = {...config};
+const { 1465528493, 9d668b0329734daa0612c2d17b49f1b2, 	ua878bfa47c8b079685b8915c4fa40ffa } = {...config};
 const LINE_API = 'https://trialbot-api.line.me/v1/events';
 
 app.use(bodyParser.json());
